@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    font-size: 62.5%;
+}
+ body{
+    
+    color: white;
+     
+}
+header{
+    background-color: rgb(95, 95, 237);
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.container h1{
+    font-family:  'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+      
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2rem 4rem;
+    align-items: center;
+    font-size: 2.3rem;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2.3rem;
+    font-weight: 500;
+    
+}
+ul li{
+    font-weight: 500;
+    list-style: none;
+    font-size: 2.3rem;
+    border-bottom: 0.4rem solid transparent;
+    transition: all 0.3s ease-in-out 0s;
+}
+ul li:hover{
+    border-bottom: 0.4rem solid  hwb(64 0% 5%);
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+.hero-section{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+     
+    background-color: rgb(33, 33, 97);
+     
+
+}
+.hero-section img{
+    transform: scale(0.5);
+    border-radius: 200px 0px;
+    box-shadow: 4px 4px 200px rgb(218, 226, 8) ;
+     
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+}
+.hi-text{
+    font-size: 8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellow;
+}
+.iam{
+    font-size: 4rem;
+    text-shadow: 3px 3px 5px rgb(227, 209, 9);
+}
+.khalid{
+    font-size: 7rem;
+    font-weight: 300px;
+  letter-spacing: 3px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ text-shadow: 3px 3px 5px rgb(227, 209, 9);
+}
+.hero-content h2{
+    font-size: 5.2rem;
+    font-weight: bolder;
+    white-space: nowrap;
+    animation-timeline: auto;
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    margin: 0px auto;
+    animation: 5s steps(40)   0s 1 normal none running typing, 0.75s step-end 0s infinite normal none running blink-caret;
+    animation-iteration-count: infinite;
+    text-shadow: 3px 3px 5px rgb(227, 209, 9);
+}
+@keyframes typing {
+    from,
+    to{
+        width: 0%;
+    }
+    
+    50%{
+        width: 100%;
+        color: rgb(221, 233, 0);
+    }
+    
+}
+@keyframes blink-caret {
+    
+    0%, 100% {
+        border-color: transparent;
+        
+    }
+     
+    50% {
+        border-color: orange;
+         
+    }
+}
+.images-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 3rem;
+    
+    place-items: center;
+    padding: 2rem;
+    background-color: rgb(42, 29, 54);
+}
+.images-grid img{
+    width: 30rem;
+    height: 35rem;
+    box-shadow: 5px 5px 30px  rgb(221, 179, 186);
+}
+ 
+.images-content h1{
+    font-size: 7rem;
+    background-color: rgb(223, 222, 224);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1rem;
+     padding: 5rem 1rem ;
+     font-weight: 800;
+     color: blue;
+     text-shadow: 3px 3px 5px rgb(0, 0, 0);
+
+}
+.images-grid a{
+    text-decoration: none;
+    color: white;
+
+}
+.images-grid li{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: -5rem;
+     
+    list-style: none;
+}
+.image-text{
+    padding: 1rem 2rem;
+    background-color: rgb(242, 214, 214);
+    transition: 0.5s ease-in-out;
+    width: 265px;
+    margin: 3rem 0rem;
+    
+}
+ 
+ 
+.image-text h3{
+    text-align: center;
+    font-size: 3rem;
+    color: blue;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0,2);
+}
+.footer{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-direction: column;
+}
+ .last-section{
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    gap: 10rem;
+    font-size: 3rem;
+    position: relative;
+    height: 500px;
+    background: linear-gradient(to top, rgb(255, 255, 5,0.7), rgb(162, 149, 149), rgb(101, 101, 246));
+    background-size: cover;
+    background-position: center;
+    
+ }
+.footer-image img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+.info{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+.points li{
+     
+    border-bottom: 2px solid grey;
+    padding: 20px;
+}
+.newfooter h2{
+    color: black;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+ .gmail{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+ }
+@media (max-width: 500px) {
+    html{
+        font-size: 32%;
+        
+    }
+    
+    
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 20px;
+        background-color: rgb(33, 33, 97);
+         
+    
+    }
+     
+    .hero-section img{
+        transform: scale(0.3);
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        
+         
+    }
+    .hero-content{
+         margin-top: -130px;
+    }
+    .image-text{
+         transform: scale(0.8);
+        width: 125px;
+        margin-top: 70px;
+         
+    }
+    
+   
+     
+    .images-grid{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5rem 0rem;
+        gap: 100px;
+    }
+    .last-section{
+        display: flex;
+        flex-direction: column;
+         padding-top: 100px;
+         
+        height: 700px;
+    }
+   .images-grid img{
+    transform: scale(1.6);
+    margin-top: 20px;
+   }
+    .first-image{
+        padding-top: 60px;
+    }
+    .gmail{
+        font-size: 10px;
+        background-color: blue;
+        margin-left: 40px;
+        width: 180px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        color: white;
+    }
+}
+
+

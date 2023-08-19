@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5;
+    background-color: rgb(230, 246, 246);
+}
+.img1{
+    background-image: url(images/8.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:  center;
+    background-attachment: fixed;
+    display: flex;
+}
+.img2{
+    background-image: url(images/2.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(30, 32, 37);
+    background-attachment: fixed;
+}
+.img3{
+    background-image: url(images/4.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(30, 32, 37);
+    background-attachment: fixed;
+
+}
+.img4{
+    background-image: url(images/8.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(30, 32, 37);
+    background-attachment: fixed;
+
+}
+.text1{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    letter-spacing: 8px;
+    font-size: 25px;
+     width: 470px;
+     background-color: rgb(30, 32, 37);
+     left: 430px;
+     padding: 20px;
+     color: white;
+     text-transform: uppercase;
+     box-shadow: 2px 3px 10px rgb(243, 243, 4,5)  , -2px -3px 10px rgb(243, 243, 4,5) ;
+ }
+ .text2{
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 25px;
+    width: 470px;
+    background-color: rgb(30, 32, 37);
+    padding: 20px;
+     color: white;
+     text-transform: uppercase;
+     position: relative;
+     left: 500px;
+     top: 300px;
+ }
+ .text3{
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 25px;
+    width: 470px;
+    background-color: rgb(30, 32, 37);
+    padding: 20px;
+     color: white;
+     text-transform: uppercase;
+     position: relative;
+     left: 430px;
+     top: 300px;
+ }
+ .text4{
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 25px;
+    width: 470px;
+    background-color: rgb(30, 32, 37);
+    padding: 20px;
+     color: white;
+     text-transform: uppercase;
+     position: relative;
+     left: 500px;
+     top: 400px;
+     box-shadow: 2px 3px 10px rgb(243, 243, 4,5)  , -2px -3px 10px rgb(243, 243, 4,5) ;
+ }
+  
+ .first-section{
+    position: relative;
+ }
+ .head2{
+     margin-top: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 25px;
+    padding-top: 50px;
+    font-family: sans-serif;
+    font-weight: 800;
+ }
+ .head3{
+     color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    background-color: rgb(30, 32, 37);
+     
+ }
+ .head4{
+    color: white;
+   text-align: center;
+   font-weight: 300;
+   font-size: 25px;
+   padding-top: 50px;
+   padding-bottom: 30px;
+   font-family: sans-serif;
+   font-weight: 800;
+   background-color: rgb(30, 32, 37);
+    
+}
+ p{
+    padding: 30px 90px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    text-align: center;
+    text-align:  center;
+    font-family: sans-serif;
+    
+ }
+ .p2{
+    color: white;
+    padding:0px 90px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    text-align: center;
+    text-align:  center;
+     
+    background-color: rgb(30, 32, 37);
+ }
+ .p3{
+    color: white;
+    padding:0px 90px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    text-align: center;
+    text-align:  center;
+     
+    background-color: rgb(30, 32, 37);
+ }
+ .navbar{
+    position: absolute ;
+    background: transparent;
+ }
+
+
+
+ /* Media Query */
+
+ @media (max-width:500px)
+{
+    .text1{
+        font-size: 20px;
+        width: 400px;
+        margin-left: -380px;
+        margin-top: 200px;
+        
+        
+     }
+     .img1{
+        background-image: url(images/8.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+    }
+    .text3{
+        font-size: 20px;
+        width: 400px;
+        margin-left: -400px;
+        padding: 10px;
+    }
+    .text4{
+        font-size: 20px;
+        width: 400px;
+        margin-left: -400px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,569 @@
+*{
+  
+  margin: 0px;
+  padding: 0px;
+  
+  scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 100%;
+     
+    
+}
+ .section-one{
+   height: 110px;
+    background-color: rgb(9, 9, 115);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0 , 0.6);
+    border: 2px solid transparent;
+     position: sticky;
+     top:0px;
+     z-index: 100;
+    
+      
+ }
+ 
+ 
+ .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  margin: 0px  50px;
+  padding: 0px 30px;
+  gap: 300px;
+  width: 1300px;
+  
+   
+ 
+}
+ 
+  
+ 
+ 
+ .container ul{
+    display: flex;
+    height: 100px;
+    color: white;
+     align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    font-weight: 300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+ }
+.container ul li{
+    list-style: none;
+    color: white;
+    font-weight: 300;
+    font-size: 22px;
+    transition-duration: 0.4s;
+    border-bottom:2px solid  rgb(9, 9, 115) ;
+     
+}
+.container ul li:hover{
+    border-bottom: 2px white solid;
+    
+    
+}
+ 
+
+.container ul a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+.logo-text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.hero-section{
+    background-image: url('images/hero_image.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.hero-section h1{
+    font-family:   'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    font-weight: 800;
+    
+}
+.hero-section h4{
+    font-size: 30px;
+    font-family:   'Arial Narrow', Arial, sans-serif;
+
+}
+.hero-section p{
+    font-size: 20px;
+    font-weight: 100;
+     font-weight: 200;
+     font-family: 'Gill Sans MT'  ;
+
+}
+ .iphone-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 27, 236);
+    color: white;
+    ;
+    gap: 30px;
+ }
+ .icon-music{
+    display: flex;
+    text-align: center;
+   
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+ }
+ .icon-music h2{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+  
+  .icon-music img{
+      color: white;
+      transform: scale(0.7);
+      
+  }
+  .iphone-section h4{
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    max-width: 1200px;
+    margin: 20px;
+  }
+  .iphone-section button{
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: 1px solid rgb(49, 37, 37);
+    border-radius: 30px;
+    
+  }
+  .iphone-section button:hover{
+    background-color: rgb(121, 1, 1);
+  }
+  .iphone-section p{
+    font-size: 20px;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+ 
+  .iphone-image img{
+    margin-top: -400px;
+    z-index: 1;
+    position: relative;
+    top: 400px;
+ 
+  }
+  .ipad-section{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .ipad-section h3{
+    font-size: 24px;
+    margin: 50px 20px;
+    
+  }
+  .ipad-section p{
+    width: 1300px;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 30px;
+  }
+  .ipad-section button{
+    margin: 40px 20px;
+    padding: 10px;
+    background-color: rgb(0, 0, 232);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 15px;
+  }
+  
+  .ipad-section img{
+    margin: 30px 20px;
+  }
+  .ipad-section button:hover{
+    background-color: rgb(5, 5, 59);
+  }
+ 
+ .vedio-section video{
+    margin: 30px 0px;
+    width: 100vw;
+    background:fixed;
+ }
+  
+  .vedio-section{
+    background-image: url('vedio/video.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    
+  }
+  .vedio-section h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-align: center;
+  }
+  .vedio-section p{
+    width: 1200px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .card-section{
+    display: flex;
+    height: 400px;
+    margin: 100px;
+    gap: 70px;
+  }
+  .text-card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+   
+     
+  }
+  .text-card h2{
+    font-family:   'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 800px;
+
+  }
+  .text-card p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .text-card button{
+    width: 120px;
+    padding: 10px 10px;
+    border: 1px solid rgb(104, 100, 100);
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 13px;
+  }
+  .text-card button:hover{
+    background-color: rgb(6, 6, 88);
+  }
+  .fourth-section{
+    background-color: rgb(6, 6, 88);
+    padding: 30px;
+  }
+  .last-section{
+    display: flex;
+   line-height: 20px;
+    gap: 150px;
+    padding: 20px;
+    margin-left: 80px;
+    color: white;
+  }
+  .first{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .second{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .third{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .fourth{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .last-section h3{
+    font-size: 23px;
+     padding-bottom: 20px;
+     font-weight: 700;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     
+  }
+  .last-section p{
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+  }
+  .footer{
+    text-align: center;
+    height: 50px;
+    margin-bottom: 20px;
+    
+  }
+  .footer h3{
+    position: relative;
+    top: 50%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+
+
+
+  @media (max-width:500px)
+  {
+    .section-one{
+      height: 110px;
+       background-color: rgb(9, 9, 115);
+       box-shadow: 5px 5px 5px rgb(0, 0, 0 , 0.6);
+       border: 2px solid transparent;
+        position: sticky;
+        top:0px;
+        z-index: 100;
+        font-size: 20px;
+       
+         
+    }
+    
+ .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+ margin-left: -20px;
+  gap: 20px;
+  width: 500px;
+  
+   
+ 
+}
+ 
+ .container ul{
+    display: flex;
+    height: 100px;
+    color: white;
+     align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+ }
+.container ul li{
+    list-style: none;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    
+    transition-duration: 0.4s;
+    border-bottom:2px solid  rgb(9, 9, 115) ;
+    margin-top: -30px;
+     
+}
+.logo-text{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-left: 30px ;
+  margin-top: -30px;
+}
+
+.hero-section h1{
+  font-family:   'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  
+}
+.hero-section h4{
+  font-size: 25px;
+  font-family:   'Arial Narrow', Arial, sans-serif;
+
+}
+.hero-section p{
+  font-size: 15px;
+  font-weight: 100;
+   font-weight: 200;
+   font-family: 'Gill Sans MT'  ;
+
+}
+
+.iphone-image img{
+  
+  z-index: 1;
+  position: relative;
+  top: 400px;
+  transform: scale(0.5);
+
+}
+
+.ipad-section{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+.ipad-section h3{
+  font-size: 24px;
+  margin: 50px 20px;
+  
+}
+.ipad-section p{
+   
+  font-weight: 200;
+  font-size: 17px;
+  width: 400px;
+  padding: 30px;
+}
+ 
+
+.ipad-section img{
+   margin-top: -80px;
+  transform: scale(0.5);
+  margin-bottom: -70px;
+}
+
+.vedio-section{
+  background-image: url('vedio/video.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+  
+}
+.vedio-section h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25x;
+  text-align: center;
+}
+.vedio-section p{
+  width: 400px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+.card-section{
+  display: flex;
+  height: 800px;
+  margin: 100px;
+  gap: 70px;
+  flex-direction: column;
+}
+ 
+ .card-image{
+  transform: scale(0.8);
+  margin-left: -80px;
+ }
+ 
+ .fourth-section{
+  background-color: rgb(6, 6, 88);
+  padding: 30px;
+}
+.last-section{
+  display: grid;
+ line-height: 20px;
+   grid-template-columns: auto auto;
+  padding: 10px;
+  margin-left: -10px;
+  color: white;
+  gap: -10px;
+}
+.first{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+   
+  margin-right: -80px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.second{
+  display: flex;
+  margin-right: -50px;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: -40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.third{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: -80px;
+  margin-right: -80px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fourth{
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-right: -50px;
+  margin-left: -40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contactme{
+  background-color: yellow;
+  text-align: center;
+}
+.contactme label{
+  margin: 5px;
+}
+.contactme input[placeholder]{
+  padding: 1px 5px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: blue;
+   margin-left: 10px;
+}
+.footer h3{
+  font-size: 12px;
+}
+
+  }

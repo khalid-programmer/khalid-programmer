@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Job application</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="bodyy">
+       <div class="container">
+         
+           <div class="text">
+              <h1 class="jobs">Job Application</h1>
+              <span class="web"><b>(web)</b></span>
+               </div>
+                 <form action="#">
+                    <div class="form_control">
+                    <div class="first_div">
+                      <div class="firstname">
+                        <label for="first name" id="label1">First name</label><br>
+                        <input type=" name" name="first name" class="name11" required placeholder="Enter first name">
+                      </div>
+                   <div class="lastname">
+                       <label for="last name" id="label2">last name</label><br>
+                       <input type="name" name="last name" placeholder="Enter the last name">
+                  </div>
+              </div>
+               <div class="second_div">
+                 <div class="email">
+                <label for="Email" id="label3">Email</label><br>
+                <input type="email" name="Email" placeholder="Enter email">
+                </div>
+            
+             <div class="selection">
+                <label for="job role" id="label4">Select JOb  </label><br>
+                <select name="job role" id="job_role">
+                    <option value="select job role"> select job role</option>
+                    <option value=" Frontend Developer" selected> Frontend Developer</option>
+                    <option value=" Backend Developer">Backend Developer</option>
+                    <option value=" Full Stack Developer"> Full stack Developer</option>
+                    <option value=" Software Engineer">Software Engineer</option>
+                    <option value=" Graphics Desginer" disabled>Graphics Desginer</option>
+                </select>
+             </div>
+        </div>
+          
+             <div class="addres">
+                <label for="text area" id="label5">Address</label> <br>
+                  <textarea name="text area" id="textarea" cols="10" rows="3" placeholder="Enter address"></textarea>
+             </div>
+             <div class="third_div">
+                <div class="dated">
+                    <label for="city" class="labled">  Date</label><br>
+                    <input type="date" name="city" id="city">
+                 </div>
+                 <div class="filed">
+                    <label for="choose"  class="filedd">Upload CV</label><br>
+                    <input type="file" name="choose" id="">
+                 </div>
+             </div>
+             <div class="forth_div">
+                
+                <button class="btn">Apply Now</button>
+             </div>
+             
+        </div>
+    </form>
+    
+    
+</div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
