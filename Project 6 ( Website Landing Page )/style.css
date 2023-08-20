@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 
 }
 .container{
@@ -201,7 +201,7 @@ text-shadow: 3px 4px 50px rgb(0, 0, 0 , 200);
         font-size: 32%
     }
     .header{
-        width: 800px;
+        width: 500px;
      
     position: absolute;
      
@@ -232,7 +232,7 @@ text-shadow: 3px 4px 50px rgb(0, 0, 0 , 200);
         background-color: black;
     }
     .bottom{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 50;
         color: white;
         padding-top: 20px;
@@ -243,7 +243,7 @@ text-shadow: 3px 4px 50px rgb(0, 0, 0 , 200);
          
     }
     .you{
-        font-size: 60px;
+        font-size: 40px;
          
     }
     .section2{
@@ -266,7 +266,7 @@ text-shadow: 3px 4px 50px rgb(0, 0, 0 , 200);
          border: 0.2px solid rgb(150, 140, 140);
         color: rgb(0, 0, 0);
         box-shadow: 1px 1px 5px rgb(134, 114, 114 );
-        width: 60%;
+       width: 300px;
         transition-duration: 0.3s;
         border-radius: 10px;
         margin-left: -90px;
@@ -278,11 +278,11 @@ text-shadow: 3px 4px 50px rgb(0, 0, 0 , 200);
         color: white;
         height: 600px;
         display: flex;
-        
+        width: 500px;
     }
     .one-text{
        
-        width:50%;
+        width:400px;
         background:linear-gradient( 40deg ,rgb(154, 154, 15) , black, rgb(46, 46, 238));
         border:10px solid rgb(0, 0, 0);
         transition-duration: 0.3s;

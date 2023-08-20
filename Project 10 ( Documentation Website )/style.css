@@ -12,7 +12,7 @@ body{
 }
 header{
     height: 100vh;
-    width: 25vw;
+     width: 300px;
     border: 1px solid grey;
     position: sticky;
     top: 0px;

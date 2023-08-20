@@ -99,4 +99,7 @@ h1{
    .container{
     padding-top: 120px;
    }
+   body{
+    transform: scale(0.8);
+   }
 }

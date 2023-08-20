@@ -490,7 +490,7 @@ body{
 }
 .card-section{
   display: flex;
-  height: 800px;
+  height: 900px;
   margin: 100px;
   gap: 70px;
   flex-direction: column;
