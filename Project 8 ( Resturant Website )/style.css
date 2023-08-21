@@ -364,6 +364,9 @@
   .logo-footer{
    margin: 30px 10px;
   }  
+  .stick{
+   width: 425px;
+  }
   
   .icons img{
      
@@ -381,6 +384,27 @@
 
 @media (max-width:500px)
 {
+   .images-container{
+      width: 425px;
+   }
+   .navbar{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 60px; 
+      
+      max-height: 120px; 
+      background-color: white;
+      width: 425px;
+  }
+   .container{
+      max-width: 1200px;
+      margin: 20px 50px;
+      border: 1px solid white;
+      background-color: white;
+   }
+   .logo{
+      margin-left: 40px;
+   }
    .btn-container{
       display: flex;
       justify-content: right;
@@ -412,12 +436,15 @@
    transform: scale(0.5);
    margin-left: -190px;
 }
+.logo-container{
+   width: 425px;
+}
 .card-container{
    display: flex;
    flex-direction: column;
     margin-left: -2px;
    height: 700px;
-   
+   transform: scale(0.8);
    box-shadow: 2px 2px 20px rgba(0, 0, 0, 50);
    align-items: center;
    justify-content: center;
@@ -467,6 +494,7 @@
    margin: 20px 0px;
    height: 300px;
    padding: 30px;
+   width: 425px;
    gap: 10px;
    color: rgb(255, 255, 255);
    background-color: rgb(25, 46, 21);
@@ -482,17 +510,21 @@
    margin-bottom: 40px;
    background-color: red;
    width: 140px;
-   margin-left: 130px;
+   margin-left: 170px;
    font-size: 22px;
    font-weight: 300;
    color: white;
+
  }
+.text-container h1{
+   margin-left: 100px;
+}
  .main-links{
    display: flex;
    flex-direction: column;
    margin-left: -5px;
    margin-top: 30px;
-   width: 200px;
+   width: 425px;
    height: 300px;
    
   }
@@ -507,6 +539,7 @@
    width: 240px;
    height: 300px;
    color: black;
+   
      
   }
   .support h3{
@@ -529,6 +562,12 @@
    display: flex;
     transform: scale(0.8);
   }
+  .image-section-container{
+   width: 425px;
+  }
+  .image-text-section{
+   width: 425px;
+  }
   .emailme{
     padding-left: 3px;
     width: 200px;
@@ -540,10 +579,15 @@
    margin-top: 340px;
    background-color: blue;
    color: white;
-   padding: 5px;
+   padding: 5px 15px;
+   width: 425px;
+   margin-left: 20px;
   }
   .myfooter h2{
    text-align: center;
     font-size: 15px;
+  }
+  .ourmenu{
+   margin-left: 50px;
   }
 }

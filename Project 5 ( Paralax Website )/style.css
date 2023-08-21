@@ -171,15 +171,27 @@
 
  /* Media Query */
 
- @media (max-width:500px)
+ @media (max-width:425px)
 {
     .text1{
         font-size: 20px;
-        width: 400px;
-        margin-left: -380px;
+        width: 300px;
+        margin-left: -370px;
         margin-top: 200px;
         
         
+     }
+     .text2{
+        letter-spacing: 8px;
+        text-align: center;
+        font-size: 20px;
+        width: 300px;
+        margin-left: -460px;
+        background-color: rgb(30, 32, 37);
+        padding: 20px;
+         color: white;
+         text-transform: uppercase;
+         
      }
      .img1{
         background-image: url(images/8.jpg);
@@ -187,17 +199,24 @@
         background-size: cover;
         background-attachment: fixed;
         display: flex;
+        width: 425px;
     }
+    
     .text3{
+         
+        text-align: center;
         font-size: 20px;
-        width: 400px;
-        margin-left: -400px;
+        width: 300px;
+        background-color: rgb(30, 32, 37);
         padding: 10px;
-    }
+         color: white;
+         text-transform: uppercase;
+         margin-left: -400px;
+     }
     .text4{
         font-size: 20px;
         width: 400px;
-        margin-left: -400px;
+        margin-left: -420px;
         padding: 10px;
     }
 }

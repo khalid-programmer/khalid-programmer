@@ -195,18 +195,18 @@ text-shadow: 3px 4px 50px rgb(0, 0, 0 , 200);
 
 
 
-@media (max-width:500px)
+@media (max-width:425px)
 {
     body{
         font-size: 32%
     }
     .header{
-        width: 500px;
+        width: 425px;
      
     position: absolute;
      
     top: 180px;
-    
+    margin-left: -20px;
      font-size: 15px;
     font-weight: 1200;
     font-family:   Calibri ;
@@ -221,7 +221,7 @@ text-shadow: 3px 4px 50px rgb(0, 0, 0 , 200);
         color: yellow;
         text-shadow: 20px 20px 20px rgb(0, 0, 0 , 200);
           
-         font-size: 45px;
+         font-size: 40px;
          margin-left: -260px;
     }
     .bottom-text{
@@ -321,6 +321,7 @@ text-shadow: 3px 4px 50px rgb(0, 0, 0 , 200);
         background-color: black;
         color: white;
         text-align: center;
+        width: 425px;
        
     }
     .footer h1{

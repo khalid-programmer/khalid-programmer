@@ -239,7 +239,7 @@ ul a{
     text-align: center;
     padding: 10px 0px;
  }
-@media (max-width: 500px) {
+@media (max-width: 425px) {
     html{
         font-size: 32%;
         
